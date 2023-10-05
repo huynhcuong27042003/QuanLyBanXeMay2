@@ -38,16 +38,6 @@
             this.txtThanhTien = new System.Windows.Forms.TextBox();
             this.lblThanhTien = new System.Windows.Forms.Label();
             this.dgvDanhSachHoaDonNhapHang = new System.Windows.Forms.DataGridView();
-            this.colMaHoaDon = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colMaNCC = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colTenNCC = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colMaXe = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colTenXe = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colLoaiXe = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colMau = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colSoLuong = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colGia = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colThanhTien = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cmbMau = new System.Windows.Forms.ComboBox();
             this.lblMau = new System.Windows.Forms.Label();
             this.numSoLuong = new System.Windows.Forms.NumericUpDown();
@@ -63,6 +53,20 @@
             this.lblTenNCC = new System.Windows.Forms.Label();
             this.lblMaNCC = new System.Windows.Forms.Label();
             this.btnNhapHang = new System.Windows.Forms.Button();
+            this.dateThoiGian = new System.Windows.Forms.DateTimePicker();
+            this.lblThoiGian = new System.Windows.Forms.Label();
+            this.colMaHoaDon = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colMaNCC = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colTenNCC = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colMaXe = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colTenXe = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colThoiGian = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colLoaiXe = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colMau = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colSoLuong = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colGia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colThanhTien = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnIn = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachHoaDonNhapHang)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numSoLuong)).BeginInit();
@@ -70,6 +74,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.lblThoiGian);
+            this.groupBox1.Controls.Add(this.dateThoiGian);
             this.groupBox1.Controls.Add(this.txtMaHoaDon);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.btnTroVe);
@@ -183,6 +189,7 @@
             this.colTenNCC,
             this.colMaXe,
             this.colTenXe,
+            this.colThoiGian,
             this.colLoaiXe,
             this.colMau,
             this.colSoLuong,
@@ -194,76 +201,6 @@
             this.dgvDanhSachHoaDonNhapHang.RowTemplate.Height = 24;
             this.dgvDanhSachHoaDonNhapHang.Size = new System.Drawing.Size(1168, 370);
             this.dgvDanhSachHoaDonNhapHang.TabIndex = 28;
-            // 
-            // colMaHoaDon
-            // 
-            this.colMaHoaDon.HeaderText = "MÃ HÓA ĐƠN";
-            this.colMaHoaDon.MinimumWidth = 6;
-            this.colMaHoaDon.Name = "colMaHoaDon";
-            this.colMaHoaDon.Width = 125;
-            // 
-            // colMaNCC
-            // 
-            this.colMaNCC.HeaderText = "MÃ NCC";
-            this.colMaNCC.MinimumWidth = 6;
-            this.colMaNCC.Name = "colMaNCC";
-            this.colMaNCC.Width = 125;
-            // 
-            // colTenNCC
-            // 
-            this.colTenNCC.HeaderText = "TÊN NCC";
-            this.colTenNCC.MinimumWidth = 6;
-            this.colTenNCC.Name = "colTenNCC";
-            this.colTenNCC.Width = 125;
-            // 
-            // colMaXe
-            // 
-            this.colMaXe.HeaderText = "MÃ XE";
-            this.colMaXe.MinimumWidth = 6;
-            this.colMaXe.Name = "colMaXe";
-            this.colMaXe.Width = 125;
-            // 
-            // colTenXe
-            // 
-            this.colTenXe.HeaderText = "TÊN XE";
-            this.colTenXe.MinimumWidth = 6;
-            this.colTenXe.Name = "colTenXe";
-            this.colTenXe.Width = 125;
-            // 
-            // colLoaiXe
-            // 
-            this.colLoaiXe.HeaderText = "LOẠI";
-            this.colLoaiXe.MinimumWidth = 6;
-            this.colLoaiXe.Name = "colLoaiXe";
-            this.colLoaiXe.Width = 125;
-            // 
-            // colMau
-            // 
-            this.colMau.HeaderText = "MÀU";
-            this.colMau.MinimumWidth = 6;
-            this.colMau.Name = "colMau";
-            this.colMau.Width = 125;
-            // 
-            // colSoLuong
-            // 
-            this.colSoLuong.HeaderText = "SỐ LƯỢNG";
-            this.colSoLuong.MinimumWidth = 6;
-            this.colSoLuong.Name = "colSoLuong";
-            this.colSoLuong.Width = 125;
-            // 
-            // colGia
-            // 
-            this.colGia.HeaderText = "GIÁ";
-            this.colGia.MinimumWidth = 6;
-            this.colGia.Name = "colGia";
-            this.colGia.Width = 125;
-            // 
-            // colThanhTien
-            // 
-            this.colThanhTien.HeaderText = "THÀNH TIỀN";
-            this.colThanhTien.MinimumWidth = 6;
-            this.colThanhTien.Name = "colThanhTien";
-            this.colThanhTien.Width = 125;
             // 
             // cmbMau
             // 
@@ -326,7 +263,7 @@
             // 
             this.cmbTenXe.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbTenXe.FormattingEnabled = true;
-            this.cmbTenXe.Location = new System.Drawing.Point(104, 226);
+            this.cmbTenXe.Location = new System.Drawing.Point(104, 193);
             this.cmbTenXe.Name = "cmbTenXe";
             this.cmbTenXe.Size = new System.Drawing.Size(121, 24);
             this.cmbTenXe.TabIndex = 10;
@@ -335,7 +272,7 @@
             // 
             this.cmbMaXe.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbMaXe.FormattingEnabled = true;
-            this.cmbMaXe.Location = new System.Drawing.Point(104, 170);
+            this.cmbMaXe.Location = new System.Drawing.Point(104, 150);
             this.cmbMaXe.Name = "cmbMaXe";
             this.cmbMaXe.Size = new System.Drawing.Size(121, 24);
             this.cmbMaXe.TabIndex = 9;
@@ -344,7 +281,7 @@
             // 
             this.lblTenXe.AutoSize = true;
             this.lblTenXe.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTenXe.Location = new System.Drawing.Point(6, 229);
+            this.lblTenXe.Location = new System.Drawing.Point(6, 196);
             this.lblTenXe.Name = "lblTenXe";
             this.lblTenXe.Size = new System.Drawing.Size(55, 16);
             this.lblTenXe.TabIndex = 8;
@@ -354,7 +291,7 @@
             // 
             this.lblMaXe.AutoSize = true;
             this.lblMaXe.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMaXe.Location = new System.Drawing.Point(6, 173);
+            this.lblMaXe.Location = new System.Drawing.Point(6, 153);
             this.lblMaXe.Name = "lblMaXe";
             this.lblMaXe.Size = new System.Drawing.Size(47, 16);
             this.lblMaXe.TabIndex = 7;
@@ -364,7 +301,7 @@
             // 
             this.cmbTenNCC.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbTenNCC.FormattingEnabled = true;
-            this.cmbTenNCC.Location = new System.Drawing.Point(104, 120);
+            this.cmbTenNCC.Location = new System.Drawing.Point(104, 106);
             this.cmbTenNCC.Name = "cmbTenNCC";
             this.cmbTenNCC.Size = new System.Drawing.Size(121, 24);
             this.cmbTenNCC.TabIndex = 6;
@@ -382,7 +319,7 @@
             // 
             this.lblTenNCC.AutoSize = true;
             this.lblTenNCC.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTenNCC.Location = new System.Drawing.Point(6, 123);
+            this.lblTenNCC.Location = new System.Drawing.Point(6, 109);
             this.lblTenNCC.Name = "lblTenNCC";
             this.lblTenNCC.Size = new System.Drawing.Size(66, 16);
             this.lblTenNCC.TabIndex = 4;
@@ -400,18 +337,126 @@
             // 
             // btnNhapHang
             // 
-            this.btnNhapHang.Location = new System.Drawing.Point(1235, 509);
+            this.btnNhapHang.Location = new System.Drawing.Point(1219, 509);
             this.btnNhapHang.Name = "btnNhapHang";
-            this.btnNhapHang.Size = new System.Drawing.Size(101, 47);
+            this.btnNhapHang.Size = new System.Drawing.Size(198, 47);
             this.btnNhapHang.TabIndex = 1;
             this.btnNhapHang.Text = "Nhập Hàng";
             this.btnNhapHang.UseVisualStyleBackColor = true;
             // 
+            // dateThoiGian
+            // 
+            this.dateThoiGian.CustomFormat = "dd/MM/yyyy";
+            this.dateThoiGian.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateThoiGian.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateThoiGian.Location = new System.Drawing.Point(104, 235);
+            this.dateThoiGian.Name = "dateThoiGian";
+            this.dateThoiGian.Size = new System.Drawing.Size(121, 22);
+            this.dateThoiGian.TabIndex = 34;
+            // 
+            // lblThoiGian
+            // 
+            this.lblThoiGian.AutoSize = true;
+            this.lblThoiGian.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblThoiGian.Location = new System.Drawing.Point(7, 240);
+            this.lblThoiGian.Name = "lblThoiGian";
+            this.lblThoiGian.Size = new System.Drawing.Size(74, 16);
+            this.lblThoiGian.TabIndex = 35;
+            this.lblThoiGian.Text = "THỜI GIAN";
+            // 
+            // colMaHoaDon
+            // 
+            this.colMaHoaDon.HeaderText = "MÃ HÓA ĐƠN";
+            this.colMaHoaDon.MinimumWidth = 6;
+            this.colMaHoaDon.Name = "colMaHoaDon";
+            this.colMaHoaDon.Width = 125;
+            // 
+            // colMaNCC
+            // 
+            this.colMaNCC.HeaderText = "MÃ NCC";
+            this.colMaNCC.MinimumWidth = 6;
+            this.colMaNCC.Name = "colMaNCC";
+            this.colMaNCC.Width = 125;
+            // 
+            // colTenNCC
+            // 
+            this.colTenNCC.HeaderText = "TÊN NCC";
+            this.colTenNCC.MinimumWidth = 6;
+            this.colTenNCC.Name = "colTenNCC";
+            this.colTenNCC.Width = 125;
+            // 
+            // colMaXe
+            // 
+            this.colMaXe.HeaderText = "MÃ XE";
+            this.colMaXe.MinimumWidth = 6;
+            this.colMaXe.Name = "colMaXe";
+            this.colMaXe.Width = 125;
+            // 
+            // colTenXe
+            // 
+            this.colTenXe.HeaderText = "TÊN XE";
+            this.colTenXe.MinimumWidth = 6;
+            this.colTenXe.Name = "colTenXe";
+            this.colTenXe.Width = 125;
+            // 
+            // colThoiGian
+            // 
+            this.colThoiGian.HeaderText = "THỜI GIAN";
+            this.colThoiGian.MinimumWidth = 6;
+            this.colThoiGian.Name = "colThoiGian";
+            this.colThoiGian.Width = 125;
+            // 
+            // colLoaiXe
+            // 
+            this.colLoaiXe.HeaderText = "LOẠI";
+            this.colLoaiXe.MinimumWidth = 6;
+            this.colLoaiXe.Name = "colLoaiXe";
+            this.colLoaiXe.Width = 125;
+            // 
+            // colMau
+            // 
+            this.colMau.HeaderText = "MÀU";
+            this.colMau.MinimumWidth = 6;
+            this.colMau.Name = "colMau";
+            this.colMau.Width = 125;
+            // 
+            // colSoLuong
+            // 
+            this.colSoLuong.HeaderText = "SỐ LƯỢNG";
+            this.colSoLuong.MinimumWidth = 6;
+            this.colSoLuong.Name = "colSoLuong";
+            this.colSoLuong.Width = 125;
+            // 
+            // colGia
+            // 
+            this.colGia.HeaderText = "GIÁ";
+            this.colGia.MinimumWidth = 6;
+            this.colGia.Name = "colGia";
+            this.colGia.Width = 125;
+            // 
+            // colThanhTien
+            // 
+            this.colThanhTien.HeaderText = "THÀNH TIỀN";
+            this.colThanhTien.MinimumWidth = 6;
+            this.colThanhTien.Name = "colThanhTien";
+            this.colThanhTien.Width = 125;
+            // 
+            // btnIn
+            // 
+            this.btnIn.Location = new System.Drawing.Point(1015, 509);
+            this.btnIn.Name = "btnIn";
+            this.btnIn.Size = new System.Drawing.Size(198, 47);
+            this.btnIn.TabIndex = 41;
+            this.btnIn.Text = "In Hóa Đơn Nhập Hàng";
+            this.btnIn.UseVisualStyleBackColor = true;
+            // 
             // frmHoaDonNhapHang
             // 
+            this.AcceptButton = this.btnNhapHang;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1445, 568);
+            this.Controls.Add(this.btnIn);
             this.Controls.Add(this.btnNhapHang);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmHoaDonNhapHang";
@@ -452,15 +497,19 @@
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.TextBox txtMaHoaDon;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblThoiGian;
+        private System.Windows.Forms.DateTimePicker dateThoiGian;
         private System.Windows.Forms.DataGridViewTextBoxColumn colMaHoaDon;
         private System.Windows.Forms.DataGridViewTextBoxColumn colMaNCC;
         private System.Windows.Forms.DataGridViewTextBoxColumn colTenNCC;
         private System.Windows.Forms.DataGridViewTextBoxColumn colMaXe;
         private System.Windows.Forms.DataGridViewTextBoxColumn colTenXe;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colThoiGian;
         private System.Windows.Forms.DataGridViewTextBoxColumn colLoaiXe;
         private System.Windows.Forms.DataGridViewTextBoxColumn colMau;
         private System.Windows.Forms.DataGridViewTextBoxColumn colSoLuong;
         private System.Windows.Forms.DataGridViewTextBoxColumn colGia;
         private System.Windows.Forms.DataGridViewTextBoxColumn colThanhTien;
+        private System.Windows.Forms.Button btnIn;
     }
 }

@@ -28,39 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnXuatFile = new System.Windows.Forms.Button();
             this.dgvDanhSachTimKiemXe = new System.Windows.Forms.DataGridView();
-            this.btnTroVe = new System.Windows.Forms.Button();
-            this.txtSoLuong = new System.Windows.Forms.TextBox();
-            this.btnXoa = new System.Windows.Forms.Button();
-            this.btnTimKiem = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.cmbChucVu = new System.Windows.Forms.ComboBox();
-            this.txtTenXe = new System.Windows.Forms.TextBox();
-            this.txtMaXe = new System.Windows.Forms.TextBox();
-            this.lblTenNcc = new System.Windows.Forms.Label();
-            this.lblTenNV = new System.Windows.Forms.Label();
-            this.lblMaNV = new System.Windows.Forms.Label();
             this.colMaNV = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colGioiTinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colNgaySinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colTenNV = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colChucVu = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnTroVe = new System.Windows.Forms.Button();
+            this.txtSoLuong = new System.Windows.Forms.TextBox();
+            this.btnXoa = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cmbChucVu = new System.Windows.Forms.ComboBox();
+            this.txtTenXe = new System.Windows.Forms.TextBox();
+            this.txtMaXe = new System.Windows.Forms.TextBox();
+            this.chkMaNV = new System.Windows.Forms.CheckBox();
+            this.chkTenNV = new System.Windows.Forms.CheckBox();
+            this.chkChucVu = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachTimKiemXe)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // btnXuatFile
-            // 
-            this.btnXuatFile.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXuatFile.Location = new System.Drawing.Point(137, 176);
-            this.btnXuatFile.Name = "btnXuatFile";
-            this.btnXuatFile.Size = new System.Drawing.Size(81, 23);
-            this.btnXuatFile.TabIndex = 18;
-            this.btnXuatFile.Text = "Excel";
-            this.btnXuatFile.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnXuatFile.UseVisualStyleBackColor = true;
             // 
             // dgvDanhSachTimKiemXe
             // 
@@ -80,113 +67,6 @@
             this.dgvDanhSachTimKiemXe.RowTemplate.Height = 24;
             this.dgvDanhSachTimKiemXe.Size = new System.Drawing.Size(678, 207);
             this.dgvDanhSachTimKiemXe.TabIndex = 17;
-            // 
-            // btnTroVe
-            // 
-            this.btnTroVe.Location = new System.Drawing.Point(545, 176);
-            this.btnTroVe.Name = "btnTroVe";
-            this.btnTroVe.Size = new System.Drawing.Size(75, 23);
-            this.btnTroVe.TabIndex = 13;
-            this.btnTroVe.Text = "Trở Về";
-            this.btnTroVe.UseVisualStyleBackColor = true;
-            // 
-            // txtSoLuong
-            // 
-            this.txtSoLuong.Location = new System.Drawing.Point(521, 418);
-            this.txtSoLuong.Name = "txtSoLuong";
-            this.txtSoLuong.Size = new System.Drawing.Size(99, 22);
-            this.txtSoLuong.TabIndex = 14;
-            // 
-            // btnXoa
-            // 
-            this.btnXoa.Location = new System.Drawing.Point(400, 176);
-            this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(75, 23);
-            this.btnXoa.TabIndex = 15;
-            this.btnXoa.Text = "Xóa";
-            this.btnXoa.UseVisualStyleBackColor = true;
-            // 
-            // btnTimKiem
-            // 
-            this.btnTimKiem.Location = new System.Drawing.Point(316, 176);
-            this.btnTimKiem.Name = "btnTimKiem";
-            this.btnTimKiem.Size = new System.Drawing.Size(75, 23);
-            this.btnTimKiem.TabIndex = 16;
-            this.btnTimKiem.Text = "Tìm Kiếm";
-            this.btnTimKiem.UseVisualStyleBackColor = true;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(410, 424);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(104, 16);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "Kết quả tìm kiếm";
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.cmbChucVu);
-            this.groupBox1.Controls.Add(this.txtTenXe);
-            this.groupBox1.Controls.Add(this.txtMaXe);
-            this.groupBox1.Controls.Add(this.lblTenNcc);
-            this.groupBox1.Controls.Add(this.lblTenNV);
-            this.groupBox1.Controls.Add(this.lblMaNV);
-            this.groupBox1.Location = new System.Drawing.Point(61, 10);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(338, 150);
-            this.groupBox1.TabIndex = 11;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Thông Tin Tìm Kiếm";
-            // 
-            // cmbChucVu
-            // 
-            this.cmbChucVu.FormattingEnabled = true;
-            this.cmbChucVu.Location = new System.Drawing.Point(133, 104);
-            this.cmbChucVu.Name = "cmbChucVu";
-            this.cmbChucVu.Size = new System.Drawing.Size(184, 24);
-            this.cmbChucVu.TabIndex = 2;
-            // 
-            // txtTenXe
-            // 
-            this.txtTenXe.Location = new System.Drawing.Point(133, 64);
-            this.txtTenXe.Name = "txtTenXe";
-            this.txtTenXe.Size = new System.Drawing.Size(184, 22);
-            this.txtTenXe.TabIndex = 1;
-            // 
-            // txtMaXe
-            // 
-            this.txtMaXe.Location = new System.Drawing.Point(133, 32);
-            this.txtMaXe.Name = "txtMaXe";
-            this.txtMaXe.Size = new System.Drawing.Size(184, 22);
-            this.txtMaXe.TabIndex = 1;
-            // 
-            // lblTenNcc
-            // 
-            this.lblTenNcc.AutoSize = true;
-            this.lblTenNcc.Location = new System.Drawing.Point(43, 112);
-            this.lblTenNcc.Name = "lblTenNcc";
-            this.lblTenNcc.Size = new System.Drawing.Size(67, 16);
-            this.lblTenNcc.TabIndex = 0;
-            this.lblTenNcc.Text = "CHỨC VỤ";
-            // 
-            // lblTenNV
-            // 
-            this.lblTenNV.AutoSize = true;
-            this.lblTenNV.Location = new System.Drawing.Point(43, 70);
-            this.lblTenNV.Name = "lblTenNV";
-            this.lblTenNV.Size = new System.Drawing.Size(57, 16);
-            this.lblTenNV.TabIndex = 0;
-            this.lblTenNV.Text = "TÊN NV";
-            // 
-            // lblMaNV
-            // 
-            this.lblMaNV.AutoSize = true;
-            this.lblMaNV.Location = new System.Drawing.Point(43, 38);
-            this.lblMaNV.Name = "lblMaNV";
-            this.lblMaNV.Size = new System.Drawing.Size(49, 16);
-            this.lblMaNV.TabIndex = 0;
-            this.lblMaNV.Text = "MÃ NV";
             // 
             // colMaNV
             // 
@@ -228,17 +108,116 @@
             this.colChucVu.ReadOnly = true;
             this.colChucVu.Width = 125;
             // 
+            // btnTroVe
+            // 
+            this.btnTroVe.Location = new System.Drawing.Point(215, 176);
+            this.btnTroVe.Name = "btnTroVe";
+            this.btnTroVe.Size = new System.Drawing.Size(75, 23);
+            this.btnTroVe.TabIndex = 13;
+            this.btnTroVe.Text = "Trở Về";
+            this.btnTroVe.UseVisualStyleBackColor = true;
+            // 
+            // txtSoLuong
+            // 
+            this.txtSoLuong.Location = new System.Drawing.Point(521, 418);
+            this.txtSoLuong.Name = "txtSoLuong";
+            this.txtSoLuong.Size = new System.Drawing.Size(99, 22);
+            this.txtSoLuong.TabIndex = 14;
+            // 
+            // btnXoa
+            // 
+            this.btnXoa.Location = new System.Drawing.Point(324, 176);
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(75, 23);
+            this.btnXoa.TabIndex = 15;
+            this.btnXoa.Text = "Xóa";
+            this.btnXoa.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(410, 424);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(104, 16);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "Kết quả tìm kiếm";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.chkChucVu);
+            this.groupBox1.Controls.Add(this.chkTenNV);
+            this.groupBox1.Controls.Add(this.chkMaNV);
+            this.groupBox1.Controls.Add(this.cmbChucVu);
+            this.groupBox1.Controls.Add(this.txtTenXe);
+            this.groupBox1.Controls.Add(this.txtMaXe);
+            this.groupBox1.Location = new System.Drawing.Point(61, 10);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(338, 150);
+            this.groupBox1.TabIndex = 11;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Thông Tin Tìm Kiếm";
+            // 
+            // cmbChucVu
+            // 
+            this.cmbChucVu.FormattingEnabled = true;
+            this.cmbChucVu.Location = new System.Drawing.Point(133, 104);
+            this.cmbChucVu.Name = "cmbChucVu";
+            this.cmbChucVu.Size = new System.Drawing.Size(184, 24);
+            this.cmbChucVu.TabIndex = 2;
+            // 
+            // txtTenXe
+            // 
+            this.txtTenXe.Location = new System.Drawing.Point(133, 64);
+            this.txtTenXe.Name = "txtTenXe";
+            this.txtTenXe.Size = new System.Drawing.Size(184, 22);
+            this.txtTenXe.TabIndex = 1;
+            // 
+            // txtMaXe
+            // 
+            this.txtMaXe.Location = new System.Drawing.Point(133, 32);
+            this.txtMaXe.Name = "txtMaXe";
+            this.txtMaXe.Size = new System.Drawing.Size(184, 22);
+            this.txtMaXe.TabIndex = 1;
+            // 
+            // chkMaNV
+            // 
+            this.chkMaNV.AutoSize = true;
+            this.chkMaNV.Location = new System.Drawing.Point(6, 34);
+            this.chkMaNV.Name = "chkMaNV";
+            this.chkMaNV.Size = new System.Drawing.Size(71, 20);
+            this.chkMaNV.TabIndex = 18;
+            this.chkMaNV.Text = "MÃ NV";
+            this.chkMaNV.UseVisualStyleBackColor = true;
+            // 
+            // chkTenNV
+            // 
+            this.chkTenNV.AutoSize = true;
+            this.chkTenNV.Location = new System.Drawing.Point(6, 66);
+            this.chkTenNV.Name = "chkTenNV";
+            this.chkTenNV.Size = new System.Drawing.Size(79, 20);
+            this.chkTenNV.TabIndex = 19;
+            this.chkTenNV.Text = "TÊN NV";
+            this.chkTenNV.UseVisualStyleBackColor = true;
+            // 
+            // chkChucVu
+            // 
+            this.chkChucVu.AutoSize = true;
+            this.chkChucVu.Location = new System.Drawing.Point(6, 106);
+            this.chkChucVu.Name = "chkChucVu";
+            this.chkChucVu.Size = new System.Drawing.Size(95, 20);
+            this.chkChucVu.TabIndex = 20;
+            this.chkChucVu.Text = "checkBox3";
+            this.chkChucVu.UseVisualStyleBackColor = true;
+            // 
             // frmTimKiemNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnXuatFile);
             this.Controls.Add(this.dgvDanhSachTimKiemXe);
             this.Controls.Add(this.btnTroVe);
             this.Controls.Add(this.txtSoLuong);
             this.Controls.Add(this.btnXoa);
-            this.Controls.Add(this.btnTimKiem);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmTimKiemNhanVien";
@@ -252,25 +231,22 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnXuatFile;
         private System.Windows.Forms.DataGridView dgvDanhSachTimKiemXe;
         private System.Windows.Forms.Button btnTroVe;
         private System.Windows.Forms.TextBox txtSoLuong;
         private System.Windows.Forms.Button btnXoa;
-        private System.Windows.Forms.Button btnTimKiem;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.ComboBox cmbChucVu;
         private System.Windows.Forms.TextBox txtTenXe;
         private System.Windows.Forms.TextBox txtMaXe;
-        private System.Windows.Forms.Label lblTenNcc;
-        private System.Windows.Forms.Label lblTenNV;
-        private System.Windows.Forms.Label lblMaNV;
         private System.Windows.Forms.DataGridViewTextBoxColumn colMaNV;
         private System.Windows.Forms.DataGridViewTextBoxColumn colGioiTinh;
         private System.Windows.Forms.DataGridViewTextBoxColumn colNgaySinh;
         private System.Windows.Forms.DataGridViewTextBoxColumn colTenNV;
         private System.Windows.Forms.DataGridViewTextBoxColumn colChucVu;
+        private System.Windows.Forms.CheckBox chkChucVu;
+        private System.Windows.Forms.CheckBox chkTenNV;
+        private System.Windows.Forms.CheckBox chkMaNV;
     }
 }

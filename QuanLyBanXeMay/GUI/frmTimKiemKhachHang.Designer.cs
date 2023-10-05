@@ -28,20 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnXuatFile = new System.Windows.Forms.Button();
             this.dgvDanhSachTimKiemXe = new System.Windows.Forms.DataGridView();
-            this.btnTroVe = new System.Windows.Forms.Button();
-            this.txtSoLuong = new System.Windows.Forms.TextBox();
-            this.btnXoa = new System.Windows.Forms.Button();
-            this.btnTimKiem = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtTenKH = new System.Windows.Forms.TextBox();
-            this.txtMaKH = new System.Windows.Forms.TextBox();
-            this.lblTenNcc = new System.Windows.Forms.Label();
-            this.lblTenKH = new System.Windows.Forms.Label();
-            this.lblMaKH = new System.Windows.Forms.Label();
-            this.txtSDT = new System.Windows.Forms.TextBox();
             this.colMaKH = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colTenKH = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colGioiTinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -49,20 +36,20 @@
             this.colNgaySinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colSDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colDiaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnTroVe = new System.Windows.Forms.Button();
+            this.txtSoLuong = new System.Windows.Forms.TextBox();
+            this.btnXoa = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtSDT = new System.Windows.Forms.TextBox();
+            this.txtTenKH = new System.Windows.Forms.TextBox();
+            this.txtMaKH = new System.Windows.Forms.TextBox();
+            this.chkMaKH = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachTimKiemXe)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // btnXuatFile
-            // 
-            this.btnXuatFile.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXuatFile.Location = new System.Drawing.Point(137, 176);
-            this.btnXuatFile.Name = "btnXuatFile";
-            this.btnXuatFile.Size = new System.Drawing.Size(81, 23);
-            this.btnXuatFile.TabIndex = 26;
-            this.btnXuatFile.Text = "Excel";
-            this.btnXuatFile.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnXuatFile.UseVisualStyleBackColor = true;
             // 
             // dgvDanhSachTimKiemXe
             // 
@@ -84,112 +71,6 @@
             this.dgvDanhSachTimKiemXe.RowTemplate.Height = 24;
             this.dgvDanhSachTimKiemXe.Size = new System.Drawing.Size(678, 207);
             this.dgvDanhSachTimKiemXe.TabIndex = 25;
-            // 
-            // btnTroVe
-            // 
-            this.btnTroVe.Location = new System.Drawing.Point(545, 176);
-            this.btnTroVe.Name = "btnTroVe";
-            this.btnTroVe.Size = new System.Drawing.Size(75, 23);
-            this.btnTroVe.TabIndex = 21;
-            this.btnTroVe.Text = "Trở Về";
-            this.btnTroVe.UseVisualStyleBackColor = true;
-            // 
-            // txtSoLuong
-            // 
-            this.txtSoLuong.Location = new System.Drawing.Point(521, 418);
-            this.txtSoLuong.Name = "txtSoLuong";
-            this.txtSoLuong.Size = new System.Drawing.Size(99, 22);
-            this.txtSoLuong.TabIndex = 22;
-            // 
-            // btnXoa
-            // 
-            this.btnXoa.Location = new System.Drawing.Point(400, 176);
-            this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(75, 23);
-            this.btnXoa.TabIndex = 23;
-            this.btnXoa.Text = "Xóa";
-            this.btnXoa.UseVisualStyleBackColor = true;
-            // 
-            // btnTimKiem
-            // 
-            this.btnTimKiem.Location = new System.Drawing.Point(316, 176);
-            this.btnTimKiem.Name = "btnTimKiem";
-            this.btnTimKiem.Size = new System.Drawing.Size(75, 23);
-            this.btnTimKiem.TabIndex = 24;
-            this.btnTimKiem.Text = "Tìm Kiếm";
-            this.btnTimKiem.UseVisualStyleBackColor = true;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(410, 424);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(104, 16);
-            this.label3.TabIndex = 20;
-            this.label3.Text = "Kết quả tìm kiếm";
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.txtSDT);
-            this.groupBox1.Controls.Add(this.txtTenKH);
-            this.groupBox1.Controls.Add(this.txtMaKH);
-            this.groupBox1.Controls.Add(this.lblTenNcc);
-            this.groupBox1.Controls.Add(this.lblTenKH);
-            this.groupBox1.Controls.Add(this.lblMaKH);
-            this.groupBox1.Location = new System.Drawing.Point(61, 10);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(338, 150);
-            this.groupBox1.TabIndex = 19;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Thông Tin Tìm Kiếm";
-            // 
-            // txtTenKH
-            // 
-            this.txtTenKH.Location = new System.Drawing.Point(133, 64);
-            this.txtTenKH.Name = "txtTenKH";
-            this.txtTenKH.Size = new System.Drawing.Size(184, 22);
-            this.txtTenKH.TabIndex = 1;
-            // 
-            // txtMaKH
-            // 
-            this.txtMaKH.Location = new System.Drawing.Point(133, 32);
-            this.txtMaKH.Name = "txtMaKH";
-            this.txtMaKH.Size = new System.Drawing.Size(184, 22);
-            this.txtMaKH.TabIndex = 1;
-            // 
-            // lblTenNcc
-            // 
-            this.lblTenNcc.AutoSize = true;
-            this.lblTenNcc.Location = new System.Drawing.Point(43, 112);
-            this.lblTenNcc.Name = "lblTenNcc";
-            this.lblTenNcc.Size = new System.Drawing.Size(35, 16);
-            this.lblTenNcc.TabIndex = 0;
-            this.lblTenNcc.Text = "SDT";
-            // 
-            // lblTenKH
-            // 
-            this.lblTenKH.AutoSize = true;
-            this.lblTenKH.Location = new System.Drawing.Point(43, 70);
-            this.lblTenKH.Name = "lblTenKH";
-            this.lblTenKH.Size = new System.Drawing.Size(56, 16);
-            this.lblTenKH.TabIndex = 0;
-            this.lblTenKH.Text = "TÊN KH";
-            // 
-            // lblMaKH
-            // 
-            this.lblMaKH.AutoSize = true;
-            this.lblMaKH.Location = new System.Drawing.Point(43, 38);
-            this.lblMaKH.Name = "lblMaKH";
-            this.lblMaKH.Size = new System.Drawing.Size(48, 16);
-            this.lblMaKH.TabIndex = 0;
-            this.lblMaKH.Text = "MÃ KH";
-            // 
-            // txtSDT
-            // 
-            this.txtSDT.Location = new System.Drawing.Point(133, 109);
-            this.txtSDT.Name = "txtSDT";
-            this.txtSDT.Size = new System.Drawing.Size(184, 22);
-            this.txtSDT.TabIndex = 2;
             // 
             // colMaKH
             // 
@@ -247,17 +128,115 @@
             this.colDiaChi.ReadOnly = true;
             this.colDiaChi.Width = 125;
             // 
+            // btnTroVe
+            // 
+            this.btnTroVe.Location = new System.Drawing.Point(324, 176);
+            this.btnTroVe.Name = "btnTroVe";
+            this.btnTroVe.Size = new System.Drawing.Size(75, 23);
+            this.btnTroVe.TabIndex = 21;
+            this.btnTroVe.Text = "Trở Về";
+            this.btnTroVe.UseVisualStyleBackColor = true;
+            // 
+            // txtSoLuong
+            // 
+            this.txtSoLuong.Location = new System.Drawing.Point(521, 418);
+            this.txtSoLuong.Name = "txtSoLuong";
+            this.txtSoLuong.Size = new System.Drawing.Size(99, 22);
+            this.txtSoLuong.TabIndex = 22;
+            // 
+            // btnXoa
+            // 
+            this.btnXoa.Location = new System.Drawing.Point(232, 176);
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(75, 23);
+            this.btnXoa.TabIndex = 23;
+            this.btnXoa.Text = "Xóa";
+            this.btnXoa.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(410, 424);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(104, 16);
+            this.label3.TabIndex = 20;
+            this.label3.Text = "Kết quả tìm kiếm";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.checkBox2);
+            this.groupBox1.Controls.Add(this.checkBox1);
+            this.groupBox1.Controls.Add(this.chkMaKH);
+            this.groupBox1.Controls.Add(this.txtSDT);
+            this.groupBox1.Controls.Add(this.txtTenKH);
+            this.groupBox1.Controls.Add(this.txtMaKH);
+            this.groupBox1.Location = new System.Drawing.Point(61, 10);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(338, 150);
+            this.groupBox1.TabIndex = 19;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Thông Tin Tìm Kiếm";
+            // 
+            // txtSDT
+            // 
+            this.txtSDT.Location = new System.Drawing.Point(133, 109);
+            this.txtSDT.Name = "txtSDT";
+            this.txtSDT.Size = new System.Drawing.Size(184, 22);
+            this.txtSDT.TabIndex = 2;
+            // 
+            // txtTenKH
+            // 
+            this.txtTenKH.Location = new System.Drawing.Point(133, 64);
+            this.txtTenKH.Name = "txtTenKH";
+            this.txtTenKH.Size = new System.Drawing.Size(184, 22);
+            this.txtTenKH.TabIndex = 1;
+            // 
+            // txtMaKH
+            // 
+            this.txtMaKH.Location = new System.Drawing.Point(133, 32);
+            this.txtMaKH.Name = "txtMaKH";
+            this.txtMaKH.Size = new System.Drawing.Size(184, 22);
+            this.txtMaKH.TabIndex = 1;
+            // 
+            // chkMaKH
+            // 
+            this.chkMaKH.AutoSize = true;
+            this.chkMaKH.Location = new System.Drawing.Point(6, 34);
+            this.chkMaKH.Name = "chkMaKH";
+            this.chkMaKH.Size = new System.Drawing.Size(66, 20);
+            this.chkMaKH.TabIndex = 26;
+            this.chkMaKH.Text = "MaKH";
+            this.chkMaKH.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(6, 66);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(71, 20);
+            this.checkBox1.TabIndex = 27;
+            this.checkBox1.Text = "TenKH";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(6, 111);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(57, 20);
+            this.checkBox2.TabIndex = 28;
+            this.checkBox2.Text = "SDT";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
             // frmTimKiemKhachHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnXuatFile);
             this.Controls.Add(this.dgvDanhSachTimKiemXe);
             this.Controls.Add(this.btnTroVe);
             this.Controls.Add(this.txtSoLuong);
             this.Controls.Add(this.btnXoa);
-            this.Controls.Add(this.btnTimKiem);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmTimKiemKhachHang";
@@ -271,20 +250,14 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnXuatFile;
         private System.Windows.Forms.DataGridView dgvDanhSachTimKiemXe;
         private System.Windows.Forms.Button btnTroVe;
         private System.Windows.Forms.TextBox txtSoLuong;
         private System.Windows.Forms.Button btnXoa;
-        private System.Windows.Forms.Button btnTimKiem;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txtTenKH;
         private System.Windows.Forms.TextBox txtMaKH;
-        private System.Windows.Forms.Label lblTenNcc;
-        private System.Windows.Forms.Label lblTenKH;
-        private System.Windows.Forms.Label lblMaKH;
         private System.Windows.Forms.TextBox txtSDT;
         private System.Windows.Forms.DataGridViewTextBoxColumn colMaKH;
         private System.Windows.Forms.DataGridViewTextBoxColumn colTenKH;
@@ -293,5 +266,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colNgaySinh;
         private System.Windows.Forms.DataGridViewTextBoxColumn colSDT;
         private System.Windows.Forms.DataGridViewTextBoxColumn colDiaChi;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox chkMaKH;
     }
 }
