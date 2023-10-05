@@ -16,5 +16,13 @@ namespace QuanLyBanXeMay.GUI
         {
             InitializeComponent();
         }
+
+        private void txtTenXe_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
     }
 }

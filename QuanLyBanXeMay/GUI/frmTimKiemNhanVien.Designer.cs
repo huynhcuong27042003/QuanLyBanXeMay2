@@ -39,12 +39,12 @@
             this.btnXoa = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.chkChucVu = new System.Windows.Forms.CheckBox();
+            this.chkTenNV = new System.Windows.Forms.CheckBox();
+            this.chkMaNV = new System.Windows.Forms.CheckBox();
             this.cmbChucVu = new System.Windows.Forms.ComboBox();
             this.txtTenXe = new System.Windows.Forms.TextBox();
             this.txtMaXe = new System.Windows.Forms.TextBox();
-            this.chkMaNV = new System.Windows.Forms.CheckBox();
-            this.chkTenNV = new System.Windows.Forms.CheckBox();
-            this.chkChucVu = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachTimKiemXe)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -157,6 +157,36 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông Tin Tìm Kiếm";
             // 
+            // chkChucVu
+            // 
+            this.chkChucVu.AutoSize = true;
+            this.chkChucVu.Location = new System.Drawing.Point(6, 106);
+            this.chkChucVu.Name = "chkChucVu";
+            this.chkChucVu.Size = new System.Drawing.Size(89, 20);
+            this.chkChucVu.TabIndex = 20;
+            this.chkChucVu.Text = "CHỨC VỤ";
+            this.chkChucVu.UseVisualStyleBackColor = true;
+            // 
+            // chkTenNV
+            // 
+            this.chkTenNV.AutoSize = true;
+            this.chkTenNV.Location = new System.Drawing.Point(6, 66);
+            this.chkTenNV.Name = "chkTenNV";
+            this.chkTenNV.Size = new System.Drawing.Size(79, 20);
+            this.chkTenNV.TabIndex = 19;
+            this.chkTenNV.Text = "TÊN NV";
+            this.chkTenNV.UseVisualStyleBackColor = true;
+            // 
+            // chkMaNV
+            // 
+            this.chkMaNV.AutoSize = true;
+            this.chkMaNV.Location = new System.Drawing.Point(6, 34);
+            this.chkMaNV.Name = "chkMaNV";
+            this.chkMaNV.Size = new System.Drawing.Size(71, 20);
+            this.chkMaNV.TabIndex = 18;
+            this.chkMaNV.Text = "MÃ NV";
+            this.chkMaNV.UseVisualStyleBackColor = true;
+            // 
             // cmbChucVu
             // 
             this.cmbChucVu.FormattingEnabled = true;
@@ -171,6 +201,7 @@
             this.txtTenXe.Name = "txtTenXe";
             this.txtTenXe.Size = new System.Drawing.Size(184, 22);
             this.txtTenXe.TabIndex = 1;
+            this.txtTenXe.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTenXe_KeyPress);
             // 
             // txtMaXe
             // 
@@ -178,36 +209,6 @@
             this.txtMaXe.Name = "txtMaXe";
             this.txtMaXe.Size = new System.Drawing.Size(184, 22);
             this.txtMaXe.TabIndex = 1;
-            // 
-            // chkMaNV
-            // 
-            this.chkMaNV.AutoSize = true;
-            this.chkMaNV.Location = new System.Drawing.Point(6, 34);
-            this.chkMaNV.Name = "chkMaNV";
-            this.chkMaNV.Size = new System.Drawing.Size(71, 20);
-            this.chkMaNV.TabIndex = 18;
-            this.chkMaNV.Text = "MÃ NV";
-            this.chkMaNV.UseVisualStyleBackColor = true;
-            // 
-            // chkTenNV
-            // 
-            this.chkTenNV.AutoSize = true;
-            this.chkTenNV.Location = new System.Drawing.Point(6, 66);
-            this.chkTenNV.Name = "chkTenNV";
-            this.chkTenNV.Size = new System.Drawing.Size(79, 20);
-            this.chkTenNV.TabIndex = 19;
-            this.chkTenNV.Text = "TÊN NV";
-            this.chkTenNV.UseVisualStyleBackColor = true;
-            // 
-            // chkChucVu
-            // 
-            this.chkChucVu.AutoSize = true;
-            this.chkChucVu.Location = new System.Drawing.Point(6, 106);
-            this.chkChucVu.Name = "chkChucVu";
-            this.chkChucVu.Size = new System.Drawing.Size(89, 20);
-            this.chkChucVu.TabIndex = 20;
-            this.chkChucVu.Text = "CHỨC VỤ";
-            this.chkChucVu.UseVisualStyleBackColor = true;
             // 
             // frmTimKiemNhanVien
             // 

@@ -130,7 +130,7 @@
             // 
             // btnTroVe
             // 
-            this.btnTroVe.Location = new System.Drawing.Point(324, 176);
+            this.btnTroVe.Location = new System.Drawing.Point(462, 166);
             this.btnTroVe.Name = "btnTroVe";
             this.btnTroVe.Size = new System.Drawing.Size(75, 23);
             this.btnTroVe.TabIndex = 21;
@@ -146,7 +146,7 @@
             // 
             // btnXoa
             // 
-            this.btnXoa.Location = new System.Drawing.Point(232, 176);
+            this.btnXoa.Location = new System.Drawing.Point(381, 166);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(75, 23);
             this.btnXoa.TabIndex = 23;
@@ -213,6 +213,7 @@
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.Size = new System.Drawing.Size(299, 22);
             this.txtSDT.TabIndex = 2;
+            this.txtSDT.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSDT_KeyPress);
             // 
             // txtTenKH
             // 
@@ -220,6 +221,7 @@
             this.txtTenKH.Name = "txtTenKH";
             this.txtTenKH.Size = new System.Drawing.Size(299, 22);
             this.txtTenKH.TabIndex = 1;
+            this.txtTenKH.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTenKH_KeyPress);
             // 
             // txtMaKH
             // 
@@ -227,6 +229,7 @@
             this.txtMaKH.Name = "txtMaKH";
             this.txtMaKH.Size = new System.Drawing.Size(299, 22);
             this.txtMaKH.TabIndex = 1;
+            
             // 
             // frmTimKiemKhachHang
             // 
@@ -241,6 +244,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "frmTimKiemKhachHang";
             this.Text = "frmTimKiemKhachHang";
+          
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachTimKiemXe)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

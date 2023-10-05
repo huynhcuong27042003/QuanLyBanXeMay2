@@ -75,7 +75,6 @@
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin nhà cung cấp";
-     
             // 
             // txtEmail
             // 
@@ -102,6 +101,7 @@
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.Size = new System.Drawing.Size(304, 27);
             this.txtSDT.TabIndex = 14;
+            this.txtSDT.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSDT_KeyPress);
             // 
             // lblSDT
             // 
@@ -138,6 +138,7 @@
             this.txtTenNCC.Name = "txtTenNCC";
             this.txtTenNCC.Size = new System.Drawing.Size(304, 27);
             this.txtTenNCC.TabIndex = 3;
+            this.txtTenNCC.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTenNCC_KeyPress);
             // 
             // lblTenNCC
             // 
@@ -245,7 +246,6 @@
             this.btnTroVe.TabIndex = 15;
             this.btnTroVe.Text = "Trở Về";
             this.btnTroVe.UseVisualStyleBackColor = true;
-        
             // 
             // btnSua
             // 

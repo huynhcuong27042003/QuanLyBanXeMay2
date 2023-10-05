@@ -17,12 +17,6 @@ namespace QuanLyBanXeMay.GUI
         {
             InitializeComponent();
         }
-
-        private void txtMaNV_KeyPress(object sender, KeyPressEventArgs e)
-        {
-
-        }
-
         private void txtTenNV_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
@@ -54,11 +48,5 @@ namespace QuanLyBanXeMay.GUI
                 e.Handled = true;
             }
         }
-
-        private void txtMatKhau_KeyPress(object sender, KeyPressEventArgs e)
-        {
-
-        }
-
     }
 }

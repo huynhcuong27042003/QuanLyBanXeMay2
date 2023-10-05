@@ -110,7 +110,7 @@
             this.cmbChucVu.FormattingEnabled = true;
             this.cmbChucVu.Location = new System.Drawing.Point(221, 302);
             this.cmbChucVu.Name = "cmbChucVu";
-            this.cmbChucVu.Size = new System.Drawing.Size(301, 28);
+            this.cmbChucVu.Size = new System.Drawing.Size(304, 28);
             this.cmbChucVu.TabIndex = 17;
             // 
             // txtMatKhau
@@ -120,7 +120,6 @@
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.Size = new System.Drawing.Size(304, 27);
             this.txtMatKhau.TabIndex = 16;
-            this.txtMatKhau.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMatKhau_KeyPress);
             // 
             // lblMatKhau
             // 
@@ -240,7 +239,7 @@
             this.txtTenNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenNV.Location = new System.Drawing.Point(218, 102);
             this.txtTenNV.Name = "txtTenNV";
-            this.txtTenNV.Size = new System.Drawing.Size(304, 27);
+            this.txtTenNV.Size = new System.Drawing.Size(307, 27);
             this.txtTenNV.TabIndex = 3;
             this.txtTenNV.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTenNV_KeyPress);
             // 
@@ -259,9 +258,8 @@
             this.txtMaNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMaNV.Location = new System.Drawing.Point(219, 53);
             this.txtMaNV.Name = "txtMaNV";
-            this.txtMaNV.Size = new System.Drawing.Size(304, 27);
+            this.txtMaNV.Size = new System.Drawing.Size(306, 27);
             this.txtMaNV.TabIndex = 1;
-            this.txtMaNV.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMaNV_KeyPress);
             // 
             // lblMaNV
             // 

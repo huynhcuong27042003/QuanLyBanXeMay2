@@ -95,6 +95,7 @@
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.Size = new System.Drawing.Size(304, 27);
             this.txtSDT.TabIndex = 14;
+            this.txtSDT.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSDT_KeyPress);
             // 
             // lblSDT
             // 
@@ -131,6 +132,7 @@
             this.txtCccd.Name = "txtCccd";
             this.txtCccd.Size = new System.Drawing.Size(304, 27);
             this.txtCccd.TabIndex = 10;
+            this.txtCccd.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCccd_KeyPress);
             // 
             // lblCccd
             // 
@@ -203,6 +205,7 @@
             this.txtTenKH.Name = "txtTenKH";
             this.txtTenKH.Size = new System.Drawing.Size(304, 27);
             this.txtTenKH.TabIndex = 3;
+            this.txtTenKH.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTenKH_KeyPress);
             // 
             // lblTenKH
             // 
