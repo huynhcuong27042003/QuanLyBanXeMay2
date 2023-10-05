@@ -204,9 +204,9 @@
             this.chkChucVu.AutoSize = true;
             this.chkChucVu.Location = new System.Drawing.Point(6, 106);
             this.chkChucVu.Name = "chkChucVu";
-            this.chkChucVu.Size = new System.Drawing.Size(95, 20);
+            this.chkChucVu.Size = new System.Drawing.Size(89, 20);
             this.chkChucVu.TabIndex = 20;
-            this.chkChucVu.Text = "checkBox3";
+            this.chkChucVu.Text = "CHỨC VỤ";
             this.chkChucVu.UseVisualStyleBackColor = true;
             // 
             // frmTimKiemNhanVien

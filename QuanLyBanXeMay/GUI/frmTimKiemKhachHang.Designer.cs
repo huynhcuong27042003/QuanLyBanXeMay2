@@ -41,12 +41,12 @@
             this.btnXoa = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.chkMaKH = new System.Windows.Forms.CheckBox();
             this.txtSDT = new System.Windows.Forms.TextBox();
             this.txtTenKH = new System.Windows.Forms.TextBox();
             this.txtMaKH = new System.Windows.Forms.TextBox();
-            this.chkMaKH = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachTimKiemXe)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -172,61 +172,61 @@
             this.groupBox1.Controls.Add(this.txtMaKH);
             this.groupBox1.Location = new System.Drawing.Point(61, 10);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(338, 150);
+            this.groupBox1.Size = new System.Drawing.Size(476, 150);
             this.groupBox1.TabIndex = 19;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông Tin Tìm Kiếm";
-            // 
-            // txtSDT
-            // 
-            this.txtSDT.Location = new System.Drawing.Point(133, 109);
-            this.txtSDT.Name = "txtSDT";
-            this.txtSDT.Size = new System.Drawing.Size(184, 22);
-            this.txtSDT.TabIndex = 2;
-            // 
-            // txtTenKH
-            // 
-            this.txtTenKH.Location = new System.Drawing.Point(133, 64);
-            this.txtTenKH.Name = "txtTenKH";
-            this.txtTenKH.Size = new System.Drawing.Size(184, 22);
-            this.txtTenKH.TabIndex = 1;
-            // 
-            // txtMaKH
-            // 
-            this.txtMaKH.Location = new System.Drawing.Point(133, 32);
-            this.txtMaKH.Name = "txtMaKH";
-            this.txtMaKH.Size = new System.Drawing.Size(184, 22);
-            this.txtMaKH.TabIndex = 1;
-            // 
-            // chkMaKH
-            // 
-            this.chkMaKH.AutoSize = true;
-            this.chkMaKH.Location = new System.Drawing.Point(6, 34);
-            this.chkMaKH.Name = "chkMaKH";
-            this.chkMaKH.Size = new System.Drawing.Size(66, 20);
-            this.chkMaKH.TabIndex = 26;
-            this.chkMaKH.Text = "MaKH";
-            this.chkMaKH.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(6, 66);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(71, 20);
-            this.checkBox1.TabIndex = 27;
-            this.checkBox1.Text = "TenKH";
-            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
             this.checkBox2.Location = new System.Drawing.Point(6, 111);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(57, 20);
+            this.checkBox2.Size = new System.Drawing.Size(56, 20);
             this.checkBox2.TabIndex = 28;
-            this.checkBox2.Text = "SDT";
+            this.checkBox2.Text = "SĐT";
             this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(6, 66);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(148, 20);
+            this.checkBox1.TabIndex = 27;
+            this.checkBox1.Text = "TÊN KHÁCH HÀNG";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // chkMaKH
+            // 
+            this.chkMaKH.AutoSize = true;
+            this.chkMaKH.Location = new System.Drawing.Point(6, 34);
+            this.chkMaKH.Name = "chkMaKH";
+            this.chkMaKH.Size = new System.Drawing.Size(140, 20);
+            this.chkMaKH.TabIndex = 26;
+            this.chkMaKH.Text = "MÃ KHÁCH HÀNG";
+            this.chkMaKH.UseVisualStyleBackColor = true;
+            // 
+            // txtSDT
+            // 
+            this.txtSDT.Location = new System.Drawing.Point(154, 111);
+            this.txtSDT.Name = "txtSDT";
+            this.txtSDT.Size = new System.Drawing.Size(299, 22);
+            this.txtSDT.TabIndex = 2;
+            // 
+            // txtTenKH
+            // 
+            this.txtTenKH.Location = new System.Drawing.Point(154, 64);
+            this.txtTenKH.Name = "txtTenKH";
+            this.txtTenKH.Size = new System.Drawing.Size(299, 22);
+            this.txtTenKH.TabIndex = 1;
+            // 
+            // txtMaKH
+            // 
+            this.txtMaKH.Location = new System.Drawing.Point(154, 32);
+            this.txtMaKH.Name = "txtMaKH";
+            this.txtMaKH.Size = new System.Drawing.Size(299, 22);
+            this.txtMaKH.TabIndex = 1;
             // 
             // frmTimKiemKhachHang
             // 

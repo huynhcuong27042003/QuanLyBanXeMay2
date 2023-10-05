@@ -64,15 +64,10 @@ namespace QuanLyBanXeMay.GUI
             frmHoaDonNhapHang frmHoaDonNhapHang = new frmHoaDonNhapHang();
             frmHoaDonNhapHang.ShowDialog();
         }
-
-        private void frmQuanLy_Load(object sender, EventArgs e)
+        private void lậpHóaĐơnXuấtHàngToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void thốngKêToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
+            frmHoaDonXuatHang frmHoaDonXuatHang = new frmHoaDonXuatHang();
+            frmHoaDonXuatHang.ShowDialog();
         }
     }
 }

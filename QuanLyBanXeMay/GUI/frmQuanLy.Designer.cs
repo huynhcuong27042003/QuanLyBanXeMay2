@@ -167,6 +167,7 @@
             this.lậpHóaĐơnXuấtHàngToolStripMenuItem.Name = "lậpHóaĐơnXuấtHàngToolStripMenuItem";
             this.lậpHóaĐơnXuấtHàngToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.lậpHóaĐơnXuấtHàngToolStripMenuItem.Text = "Hóa đơn xuất hàng";
+            this.lậpHóaĐơnXuấtHàngToolStripMenuItem.Click += new System.EventHandler(this.lậpHóaĐơnXuấtHàngToolStripMenuItem_Click);
             // 
             // thốngKêToolStripMenuItem
             // 
@@ -176,7 +177,7 @@
             this.thốngKêToolStripMenuItem.Name = "thốngKêToolStripMenuItem";
             this.thốngKêToolStripMenuItem.Size = new System.Drawing.Size(86, 24);
             this.thốngKêToolStripMenuItem.Text = "Thống Kê";
-            this.thốngKêToolStripMenuItem.Click += new System.EventHandler(this.thốngKêToolStripMenuItem_Click);
+        
             // 
             // doanhThuToolStripMenuItem
             // 
@@ -233,7 +234,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Name = "frmQuanLy";
             this.Text = "frmQuanLy";
-            this.Load += new System.EventHandler(this.frmQuanLy_Load);
+          
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

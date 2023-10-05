@@ -18,3 +18,23 @@ D:\Đồ Án\Quản Lí Bán Xe Máy\QuanLyBanXeMay\QuanLyBanXeMay\obj\Debug\Qua
 D:\Đồ Án\Quản Lí Bán Xe Máy\QuanLyBanXeMay\QuanLyBanXeMay\obj\Debug\QuanLyBanXeMay.GUI.frmTimKiemXe.resources
 D:\Đồ Án\Quản Lí Bán Xe Máy\QuanLyBanXeMay\QuanLyBanXeMay\obj\Debug\QuanLyBanXeMay.GUI.frmHoaDonNhapHang.resources
 D:\Đồ Án\Quản Lí Bán Xe Máy\QuanLyBanXeMay\QuanLyBanXeMay\obj\Debug\QuanLyBanXeMay.GUI.frmHoaDonXuatHang.resources
+D:\Đồ Án\QuanLyBanXeMay2\QuanLyBanXeMay\bin\Debug\QuanLyBanXeMay.exe.config
+D:\Đồ Án\QuanLyBanXeMay2\QuanLyBanXeMay\bin\Debug\QuanLyBanXeMay.exe
+D:\Đồ Án\QuanLyBanXeMay2\QuanLyBanXeMay\bin\Debug\QuanLyBanXeMay.pdb
+D:\Đồ Án\QuanLyBanXeMay2\QuanLyBanXeMay\obj\Debug\QuanLyBanXeMay.csproj.AssemblyReference.cache
+D:\Đồ Án\QuanLyBanXeMay2\QuanLyBanXeMay\obj\Debug\QuanLyBanXeMay.frmTaiKhoan.resources
+D:\Đồ Án\QuanLyBanXeMay2\QuanLyBanXeMay\obj\Debug\QuanLyBanXeMay.GUI.frmHoaDonNhapHang.resources
+D:\Đồ Án\QuanLyBanXeMay2\QuanLyBanXeMay\obj\Debug\QuanLyBanXeMay.GUI.frmHoaDonXuatHang.resources
+D:\Đồ Án\QuanLyBanXeMay2\QuanLyBanXeMay\obj\Debug\QuanLyBanXeMay.GUI.frmKhachHang.resources
+D:\Đồ Án\QuanLyBanXeMay2\QuanLyBanXeMay\obj\Debug\QuanLyBanXeMay.GUI.frmNhaCungCap.resources
+D:\Đồ Án\QuanLyBanXeMay2\QuanLyBanXeMay\obj\Debug\QuanLyBanXeMay.GUI.frmNhanVien.resources
+D:\Đồ Án\QuanLyBanXeMay2\QuanLyBanXeMay\obj\Debug\QuanLyBanXeMay.GUI.frmQuanLy.resources
+D:\Đồ Án\QuanLyBanXeMay2\QuanLyBanXeMay\obj\Debug\QuanLyBanXeMay.GUI.frmTimKiemKhachHang.resources
+D:\Đồ Án\QuanLyBanXeMay2\QuanLyBanXeMay\obj\Debug\QuanLyBanXeMay.GUI.frmTimKiemNhanVien.resources
+D:\Đồ Án\QuanLyBanXeMay2\QuanLyBanXeMay\obj\Debug\QuanLyBanXeMay.GUI.frmTimKiemXe.resources
+D:\Đồ Án\QuanLyBanXeMay2\QuanLyBanXeMay\obj\Debug\QuanLyBanXeMay.GUI.frmXe.resources
+D:\Đồ Án\QuanLyBanXeMay2\QuanLyBanXeMay\obj\Debug\QuanLyBanXeMay.Properties.Resources.resources
+D:\Đồ Án\QuanLyBanXeMay2\QuanLyBanXeMay\obj\Debug\QuanLyBanXeMay.csproj.GenerateResource.cache
+D:\Đồ Án\QuanLyBanXeMay2\QuanLyBanXeMay\obj\Debug\QuanLyBanXeMay.csproj.CoreCompileInputs.cache
+D:\Đồ Án\QuanLyBanXeMay2\QuanLyBanXeMay\obj\Debug\QuanLyBanXeMay.exe
+D:\Đồ Án\QuanLyBanXeMay2\QuanLyBanXeMay\obj\Debug\QuanLyBanXeMay.pdb
