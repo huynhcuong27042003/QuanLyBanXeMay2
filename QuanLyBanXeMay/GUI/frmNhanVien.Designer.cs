@@ -61,6 +61,7 @@
             this.colChucVu = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colSDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colMatKhau = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachNhanVien)).BeginInit();
@@ -404,11 +405,21 @@
             this.colMatKhau.ReadOnly = true;
             this.colMatKhau.Width = 125;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(751, 601);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(119, 60);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Sửa";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // frmNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1332, 707);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.btnTroVe);
             this.Controls.Add(this.btnSua);
@@ -418,6 +429,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmNhanVien";
             this.Text = "frmNhanVien";
+            this.Load += new System.EventHandler(this.frmNhanVien_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -462,5 +474,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colSDT;
         private System.Windows.Forms.DataGridViewTextBoxColumn colMatKhau;
         private System.Windows.Forms.ComboBox cmbChucVu;
+        private System.Windows.Forms.Button button1;
     }
 }
