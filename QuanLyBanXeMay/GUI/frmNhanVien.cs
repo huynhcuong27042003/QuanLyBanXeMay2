@@ -48,5 +48,11 @@ namespace QuanLyBanXeMay.GUI
                 e.Handled = true;
             }
         }
+
+        private void frmNhanVien_Load(object sender, EventArgs e)
+        {
+
+        }
+        private void BirdGird(List<Nha>)
     }
 }
